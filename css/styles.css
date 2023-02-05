@@ -375,10 +375,12 @@ margin-bottom: 24px;
 .customers-item {
   width: 168px;
   height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
   border-radius: 4px;
-  border-color: #8E8F99;
-  
+  border: 1px solid #8e8f99;
 }
 
 /* \\\\\\\\\\\\\\\\\\\ Portfolio ////////////////// */
