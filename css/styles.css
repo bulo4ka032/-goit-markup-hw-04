@@ -366,6 +366,21 @@ margin-bottom: 24px;
   margin-bottom: 120px;
 }
 
+.customers-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.customers-item {
+  width: 168px;
+  height: 88px;
+  
+  border-radius: 4px;
+  border-color: #8E8F99;
+  
+}
+
 /* \\\\\\\\\\\\\\\\\\\ Portfolio ////////////////// */
 
 .portfolio-section {
