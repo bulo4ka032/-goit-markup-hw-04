@@ -21,6 +21,9 @@
 body {
   font-family: var(--primary-font);
   letter-spacing: 0.02em;
+  font-size: normal;
+  background-color: white;
+  color: var(--primary-color);
 }
 
 button {
@@ -94,7 +97,7 @@ img {
   line-height: 1.5;
   display: block;
   padding: 24px 0;
-  color: var(--primary-color);
+  
 }
 
 .menu-link:hover,
@@ -205,7 +208,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--primary-color);
+  
   margin-bottom: 8px;
   margin-top: 8px;
 }
@@ -280,7 +283,7 @@ margin-bottom: 24px;
   line-height: 1.1;
   text-align: center;
   text-transform: capitalize;
-  color: var(--primary-color);
+  
 }
 
 .teammate-name {
@@ -288,7 +291,7 @@ margin-bottom: 24px;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  color: var(--primary-color);
+
   margin-bottom: 8px;
 }
 
@@ -356,8 +359,6 @@ margin-bottom: 24px;
   line-height: 1.1;
   text-align: center;
 
-  color: var(--primary-color);
-
   margin-bottom: 72px;
 }
 
@@ -424,7 +425,6 @@ margin-bottom: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--primary-color);
 
   margin-bottom: 8px;
 }
