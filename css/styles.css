@@ -97,7 +97,6 @@ img {
   line-height: 1.5;
   display: block;
   padding: 24px 0;
-  
 }
 
 .menu-link:hover,
@@ -201,14 +200,23 @@ img {
 /* == === === === === FEATURES = == === == == == = */
 
 .features-title {
-  display: none;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .feature-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  
+
   margin-bottom: 8px;
   margin-top: 8px;
 }
@@ -221,7 +229,7 @@ img {
 
 .features {
   display: flex;
-  flex-wrap: wrap;
+  
   gap: 24px;
 }
 
@@ -264,7 +272,7 @@ margin-bottom: 24px;
 
 .servieces {
   display: flex;
-  flex-wrap: wrap;
+  
   gap: 24px;
 }
 
@@ -283,7 +291,6 @@ margin-bottom: 24px;
   line-height: 1.1;
   text-align: center;
   text-transform: capitalize;
-  
 }
 
 .teammate-name {
@@ -308,7 +315,7 @@ margin-bottom: 24px;
 
 .teammates {
   display: flex;
-  flex-wrap: wrap;
+  
   gap: 24px;
 }
 
@@ -338,6 +345,12 @@ margin-bottom: 24px;
   height: 40px;
   border-radius: 50%;
   background-color: var(--active-color);
+  transform: translate(background-color --transition-duration-and-fun);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--active-color);
 }
 
 /* .social-list-link:not(:nth-last-child(4n)) {
@@ -363,8 +376,8 @@ margin-bottom: 24px;
 }
 
 .customers-section {
-  margin-top: 130px;
-  margin-bottom: 120px;
+  padding-top: 130px;
+  padding-bottom: 120px;
 }
 
 .customers-list {
@@ -379,9 +392,29 @@ margin-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   border-radius: 4px;
   border: 1px solid #8e8f99;
+  transform: translate(border --transition-duration-and-fun);
+}
+
+
+
+
+.customer-icon {
+  fill: #8e8f99;
+
+  transform: translate(fill --transition-duration-and-fun);
+}
+
+.customers-item:hover,
+.customer-icon:focus {
+  border: 1px solid var(--active-color);
+}
+
+ .customer-icon:focus,
+.customer-icon:hover {
+ fill: var(--active-color);
 }
 
 /* \\\\\\\\\\\\\\\\\\\ Portfolio ////////////////// */
