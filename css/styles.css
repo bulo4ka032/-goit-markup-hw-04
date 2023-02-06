@@ -5,6 +5,7 @@
   --secondary-color: #434455;
   --active-color: #404bbf;
   --accent-color: #ffffff;
+  --light-color: #e7e9fc;
 }
 
 /* +++++++++++++++++++++++++++++++ ALL +++++++++++++++++++++++++++++ */
@@ -67,7 +68,7 @@ img {
 /* == = = = = == == == = Header = == == == == == */
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--light-color);
 }
 
 .logo {
@@ -435,7 +436,7 @@ margin-bottom: 24px;
 
   padding: 12px 24px;
 
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--light-color);
   border-radius: 4px;
   flex: none;
   order: 1;
@@ -490,7 +491,7 @@ margin-bottom: 24px;
 
 .project-description {
   padding: 32px 0 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--light-color);
   border-top: none;
 }
 
@@ -505,10 +506,10 @@ margin-bottom: 24px;
 .footer-description {
   font-size: 16px;
   line-height: 1.5;
-  color: #e7e9fc;
+  color: var(--light-color);
   background-color: var(--primary-color);
   width: 264px;
-  height: 72px;
+  
 
   margin-top: 16px;
 }
@@ -541,13 +542,11 @@ margin-bottom: 24px;
 }
 
 .footer-social-list {
-  width: 208px;
-  height: 80px;
   margin-left: 120px;
 }
 
 .footer-social-title {
-  color: #e7e9fc;
+  color: var(--light-color);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
