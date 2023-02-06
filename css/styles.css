@@ -22,7 +22,7 @@
 body {
   font-family: var(--primary-font);
   letter-spacing: 0.02em;
-  font-size: normal;
+  
   background-color: white;
   color: var(--primary-color);
 }
@@ -539,6 +539,13 @@ margin-bottom: 24px;
   height: 40px;
   border-radius: 50%;
   background-color: #434455;
+  transform: translate(all var(--transition-duration-and-fun));
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31D0AA;
+
 }
 
 .footer-social-list {
