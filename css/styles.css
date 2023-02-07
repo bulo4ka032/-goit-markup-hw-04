@@ -108,18 +108,6 @@ img {
   padding-bottom: 24px;
 }
 
-.active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--active-color);
-}
-
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
