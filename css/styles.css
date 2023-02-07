@@ -187,9 +187,6 @@ img {
 .hero-section {
   background-color: var(--primary-color);
   padding: 188px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
   max-width: 1440px;
   margin: 0 auto;
@@ -240,8 +237,6 @@ img {
 
 .feature {
   width: 264px;
-  display: flex;
-  flex-direction: column;
 }
 
 .feature-item {
@@ -350,7 +345,6 @@ margin-bottom: 24px;
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transform: translate(background-color --transition-duration-and-fun);
 }
 
 .social-list-link:hover,
@@ -400,23 +394,20 @@ margin-bottom: 24px;
 
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  transform: translate(border --transition-duration-and-fun);
 }
 
 .customer-icon {
   fill: #8e8f99;
-
-  transform: translate(fill --transition-duration-and-fun);
 }
 
-.customers-item:hover,
-.customer-icon:focus {
-  border: 1px solid var(--active-color);
-}
-
-.customer-icon:focus,
-.customer-icon:hover {
+.customer-link:hover .customer-icon,
+.customer-link:focus .customer-icon {
   fill: var(--active-color);
+}
+
+.customers-item:focus,
+.customers-item:hover {
+  border: 1px solid var(--active-color);
 }
 
 /* \\\\\\\\\\\\\\\\\\\ Portfolio ////////////////// */
@@ -451,8 +442,7 @@ margin-bottom: 24px;
   background-color: var(--active-color);
 }
 
-.portfolio-title,
-.projects-title {
+.portfolio-title {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -572,5 +562,5 @@ margin-bottom: 24px;
   display: flex;
 
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
